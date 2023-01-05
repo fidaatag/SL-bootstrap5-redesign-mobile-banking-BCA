@@ -1,0 +1,116 @@
+@import url(home.css);
+
+
+html,
+body {
+      height: 100vh;
+}
+
+/* color font */
+.text-blue{
+    color: #184D93 !important;
+}
+.text-blue02{
+    color: #4477BB;
+}
+.text-red{
+    color: #B22A2A !important;
+}
+.text-green{
+    color: #29A826 !important;
+}
+.text-dark{
+    color: #0D2A52;
+}
+.placeholder-color{
+    color: #D4DBE3;
+}
+
+/* background-color */
+.bg-blue{
+    background-color: #184D93 !important;
+}
+.bg-gray{
+    background-color: #F4F9FF !important;
+}
+.bg-main{
+    background-color: #eff6ff;
+}
+.bg-gray02{
+    background-color: #DDECFF;
+}
+.bg-dark{
+    background-color: #0D2A52;
+}
+
+/* shadow */
+.bx-shadow{
+    box-shadow: 0px 14px 283px rgba(18, 22, 75, 0.07), 0px 1.75302px 35.436px rgba(18, 22, 75, 0.035);
+}
+
+/* border-radius */
+.br-15{
+    border-radius: 15px;
+}
+.br-8{
+    border-radius: 8px;
+}
+.br-40{
+    border-radius: 40px;
+}
+
+/* font size*/
+.font-22{
+    font-size: 22px;
+}
+.font-18{
+    font-size: 18px;
+}
+.font-12{
+    font-size: 12px;
+}
+.font-13{
+    font-size: 13px;
+}
+.font-16{
+    font-size: 16px;
+}
+.font-24{
+    font-size: 24px;
+}
+.font-14{
+    font-size: 14px;
+}
+
+/* font-weight */
+.fw-200{
+    font-weight: 200;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+
+/* 
+
+Basic bootstrap
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-semibold:        600;
+$font-weight-bold:            700; 
+*/
+
+
+
+/* tag */
+p,h1{
+    margin-bottom: 0;
+}
+
+
