@@ -1,0 +1,45 @@
+.time{
+    max-width: 375px;
+    width: 375px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background-color: #184D93;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    padding-top: 10px;
+    padding-bottom: 16px ;
+}
+
+.section-1{
+    background-color: #184D93;
+    border-radius: 32px;
+    height: 300px;
+    position: relative;
+    padding-top: 37px !important;
+}
+
+.section-2{
+    position: absolute;
+    width: -webkit-fill-available;
+    height: 226px;
+    left: 0;
+    top: 175px;
+    background-color: white;
+    border-radius: 20px;   
+}
+
+.card01{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.card01:hover{
+    background-color: #c2d6ee;
+    cursor: pointer;
+}
