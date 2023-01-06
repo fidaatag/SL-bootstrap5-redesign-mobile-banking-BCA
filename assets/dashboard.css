@@ -1,7 +1,7 @@
 .time{
     max-width: 375px;
     width: 375px;
-    top: 0;
+    top: 0px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -12,8 +12,20 @@
     padding-bottom: 16px ;
 }
 
+.main{
+    position: relative;
+    max-width: 375px;
+    margin: auto;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.main::-webkit-scrollbar{
+    display: none;
+}
+
 .section-1{
-    background-color: #184D93;
+    background-color: #184D93 !important;
     border-radius: 32px;
     height: 300px;
     position: relative;
@@ -23,7 +35,7 @@
 .section-2{
     position: absolute;
     width: -webkit-fill-available;
-    height: 226px;
+    height: 216px;
     left: 0;
     top: 175px;
     background-color: white;
@@ -42,4 +54,58 @@
 .card01:hover{
     background-color: #c2d6ee;
     cursor: pointer;
+}
+
+.section-3{
+    position: relative;
+    top: 110px;
+}
+
+.ul-main{
+    list-style: none;
+    padding: 0;
+}
+
+.wrap-img{
+    width: 39px;
+    height: 39px;
+    background: #F4F9FF;
+    border-radius: 8px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -22px 251px rgba(18, 22, 75, 0.1), 0px -7.74821px 56.0641px rgba(18, 22, 75, 0.0596107), 0px -2.71044px 16.6918px rgba(18, 22, 75, 0.0403893);
+}
+
+.wrap-img img{
+    width: 75%;
+}
+
+.ul-main li{
+    padding: 10px 22px;
+}
+
+.ul-main li:hover{
+    background-color: #c2d6ee;
+    cursor: pointer;
+}
+
+.promo{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background: #F4F9FF;
+    box-shadow: 0px -22px 251px rgba(18, 22, 75, 0.1), 0px -7.74821px 56.0641px rgba(18, 22, 75, 0.0596107), 0px -2.71044px 16.6918px rgba(18, 22, 75, 0.0403893);
+    border-radius: 15px;
+    transition: 0.3s;
+}
+.promo:hover{
+    background-color: #c2d6ee;
+    cursor: pointer;
+}
+
+.promo img{
+    border-radius: 15px;
+    margin-right: 15px;
 }
