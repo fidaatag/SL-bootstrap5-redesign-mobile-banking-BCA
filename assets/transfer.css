@@ -26,13 +26,15 @@
     width: 375px;
     left: 50%;
     transform: translateX(-50%);
-    height: 72vh;
+    height: 71.7vh;
     background-color: #EFF6FF;
     top: 186px;
     border-top-left-radius: 32px;
     border-top-right-radius: 32px;
     padding-top: 30px;
     overflow-y: scroll;
+    z-index: 1;
+    -webkit-filter: blur(0);
 }
 
 .content::-webkit-scrollbar{
