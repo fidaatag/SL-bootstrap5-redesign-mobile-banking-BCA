@@ -1,0 +1,68 @@
+.form-group label{
+    font-size: 16px;
+    font-weight: 600;
+    color: #0d2a52;
+}
+
+.form-group .form-control{
+    height: 40px;
+    background: #f4f9ff;
+    box-shadow: 0px -22px 251px rgba(18, 22, 75, 0.1), 0px -7.74821px 56.0641px rgba(18, 22, 75, 0.0596107), 0px -2.71044px 16.6918px rgba(18, 22, 75, 0.0403893);
+    border-radius: 15px;    
+}
+
+.wrap-input .form-control{
+    padding-left: 60px;
+}
+
+.form-control::placeholder{
+    color: #d4dbe3;
+}
+
+.form-group .form-check{
+    margin-top: 5px;
+}
+
+.form-group .form-check-label{
+    font-size: 12px;
+    color: #0d2a52;
+    position: relative;
+    bottom: 2px;
+}
+
+.wrap-input{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.wrap-input p{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+
+.wrap-input .line{
+    position: absolute;
+    left: 50px;
+    width: 1px;
+    height: 70%;
+    background-color: #c1c1c1;
+}
+
+.wrap-input::after{
+    content: "";
+    background-image: url("../assets/img/arrow-right.png");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.btn:hover{
+    background-color: #103866 !important;
+}
